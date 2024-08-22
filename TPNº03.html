@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico Nº3</title>
+</head>
+
+<body>
+    <h1>Trabajo Práctico Nº3: Listas</h1>
+    <h2>De: Saucedo Leandro</h2>
+    <h3>1.1- ¿Para qué sirve la etiqueta ul? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>La etiqueta <code>&lt;ul&gt;</code> sirve para crear listas desordenadas. Por ejemplo en una lista de
+        ingredientes.</p>
+    <h3>1.2- ¿Para qué sirve la etiqueta ol? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>La etiqueta <code>&lt;ol&gt;</code> sirve para crear listas ordenadas. Por ejemplo una lista de pasos a seguir.
+    </p>
+    <h3>1.3- ¿Para qué sirve la etiqueta dl? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>La etiqueta <code>&lt;dl&gt;</code> sirve para crear listas descriptivas. Por ejemplo en las breves descripciones
+        de unas noticias.</p>
+    <h3>1.4- ¿Para qué sirve la etiqueta li? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>La etiqueta <code>&lt;li&gt;</code>sirve para meter dentro de la etiqueta de la lista los elementos que la
+        componen. Por ejemplo para asignarle a una tabla de posiciones los equipos participantes.</p>
+    <h3>1.5- Crea una lista desordenada con tres elementos (li) que contengan nombres de países de América del Sur.</h3>
+    <ul>
+        <li>Argentina</li>
+        <li>Venezuela</li>
+        <li>Chile</li>
+    </ul>
+    <h3>1.6- Crea una lista ordenada con cinco elementos (li) que contengan los días de la semana en orden alfabético.
+    </h3>
+    <ol>
+        <li>Jueves</li>
+        <li>Lunes</li>
+        <li>Martes</li>
+        <li>Miercoles</li>
+        <li>Viernes</li>
+    </ol>
+    <h3>1.7- Anida una lista desordenada dentro de otro elemento li de otra lista desordenada para crear una lista
+        anidada de frutas y verduras.</h3>
+    <ul>
+        <li>Frutas
+            <ul>
+                <li>Manzana</li>
+                <li>Uva</li>
+                <li>Sandia</li>
+            </ul>
+        </li>
+        <li>Verduras
+            <ul>
+                <li>Lechuga</li>
+                <li>Zanahoria</li>
+                <li>Morron</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>1.8- Crea una lista ordenada, respetando las negritas y el subrayado, que contenga los siguientes pasos para
+        hacer
+        una tarta de manzana: a) Pelar y cortar las manzanas en rodajas finas. b) Mezclar la canela, el azúcar y la
+        harina
+        en un tazón. c) Colocar la masa de la tarta en un molde para horno. d) Colocar las manzanas sobre la masa de la
+        tarta. e) Hornear la tarta durante 45 minutos.</h3>
+    <ol type="a">
+        <li><u>Pelar</u> y <u>cortar</u> las <strong>manzanas</strong> en rodajas finas.</li>
+        <li><u>Mezclar</u> la <strong>canela</strong>, el <strong>azúcar</strong> y la <strong>harina</strong> en un
+            tazón.</li>
+        <li><u>Colocar</u> la <strong>masa</strong> de la <strong>tarta</strong> en un molde para horno.</li>
+        <li><u>Colocar</u> las <strong>manzana</strong> sobre la masa de la tarta.</li>
+        <li><u>Hornear</u> la <strong>tarta</strong> durante 45 minutos.</li>
+    </ol>
+    <h3>1.9- Existe un atributo que se aplica a la etiqueta ol para ver la lista en orden descendente en vez de
+        ascendente,
+        ¿cuál es ese atributo? Utilizar la referencia de atributos de HTML
+        https://developer.mozilla.org/es/docs/Web/HTML/Attributes</h3>
+    <p>El atributo es <code>reversed</code>.</p>
+    <h3>1.10- Utilizando el atributo anterior, crear una lista con cuatro elementos que contengan nombres de películas
+        de
+        terror de forma descendente.</h3>
+    <ol reversed>
+        <li>IT</li>
+        <li>Chuky</li>
+        <li>Annabelle</li>
+        <li>Carrie</li>
+    </ol>
+    <h3>1.11 Elegir un gusto particular y realizar una lista descriptiva de por lo menos 5 elementos. El título debe
+        tener
+        un enlace que lleve a un sitio de referencia. Utilizar en las descripciones etiquetas: strong, em, img.</h3>
+    <dl>
+        <dt><a href="https://es.stardewvalleywiki.com/Ajo">Ajo</a></dt>
+        <img src="Ajo.png" alt="">
+        <dd>El Ajo es un cultivo en <strong>Stardew Valley</strong>. <em>Crece a partir de Semillas de ajo después de 4
+                días.</em></dd>
+        <dt><a href="https://es.stardewvalleywiki.com/Fruta_milenaria">Fruta Milenaria</a></dt>
+        <img src="Ancient_Fruit.png" alt="">
+        <dd>La Fruta milenaria es un cultivo en <strong>Stardew Valley</strong>. <em>Crece a partir de Semillas
+                milenarias después de 28 días.</em> Cuando se cosecha, cada planta da 1 Fruta milenaria cada 7 días.
+        </dd>
+        <dt><a href="https://es.stardewvalleywiki.com/Trigo">Trigo</a></dt>
+        <img src="Trigo.png" alt="">
+        <dd>El Trigo es un cultivo en <strong>Stardew Valley</strong>. <em>Crece a partir de Semillas de trigo después
+                de 4 días.</em></dd>
+        <dt><a href="https://es.stardewvalleywiki.com/Ar%C3%A1ndano">Arandano</a></dt>
+        <img src="Arandano.png" alt="">
+        <dd>El Arándano es un cultivo en <strong>Stardew Valley</strong>. <em>Crece a partir de Semillas de arándano
+                después de 13 días.</em></dd>
+        <dt><a href="https://es.stardewvalleywiki.com/Coliflor">Coliflor</a></dt>
+        <img src="Coliflor.png" alt="">
+        <dd>La Coliflor es un cultivo en <strong>Stardew Valley</strong>. <em>Crece a partir de Semillas de coliflor
+                después de 12 días.</em> Es uno de los cultivos que se pueden convertir en cultivos gigantes.</dd>
+    </dl>
+
+</body>
+
+</html>
